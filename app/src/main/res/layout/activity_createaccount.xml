@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/constraints2"
+        android:background="@color/Black"
+        android:orientation="horizontal"
+
+>
+    <ImageView android:layout_width="153dp" android:layout_height="120dp"
+               android:orientation="horizontal"
+               style="@style/image_signin" android:layout_marginTop="148dp"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               android:layout_marginStart="8dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               android:layout_marginEnd="8dp"
+               app:srcCompat="@drawable/ic_plane" android:id="@+id/imageView"
+               app:layout_constraintHorizontal_bias="0.498"/>
+    <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/createaccountname_edittext" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" style="@style/stylename_edittextsigin"
+            android:hint="@string/edittext_username_hint"/>
+    <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText2"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/createaccountname_edittext"
+            style="@style/stylename_edittextsigin" android:hint="@string/create_Email"/>
+    <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/craeteaccount_password" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" style="@style/stylepassword_signin"
+            android:hint="@string/password_hint"/>
+    <Button
+            android:text="Register"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:id="@+id/button_register" app:layout_constraintStart_toStartOf="@+id/craeteaccount_password"
+            app:layout_constraintEnd_toEndOf="@+id/craeteaccount_password" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/craeteaccount_password" style="@style/stylebutton_signin"/>
+    <TextView
+            android:text="Already have a acoount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/create_textview" app:layout_constraintStart_toStartOf="@+id/button_register"
+            app:layout_constraintEnd_toEndOf="@+id/button_register" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/button_register" android:textSize="15sp"
+            android:textColor="@android:color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

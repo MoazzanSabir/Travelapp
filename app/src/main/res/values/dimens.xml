@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_paddingtop">10dp</dimen>
+    <dimen name="name_text_paddingleft">20dp</dimen>
+</resources>

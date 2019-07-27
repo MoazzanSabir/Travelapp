@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/Black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="stylename_edittextsigin">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:background">@drawable/rounded_edittext</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:paddingLeft">14dp</item>
+    </style>
+    <style name="stylepassword_signin">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:background">@drawable/rounded_edittext</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:paddingLeft">14dp</item>
+    </style>
+    <style name="stylebutton_signin">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+    <style name="image_signin">
+        <item name="android:layout_width">98dp</item>
+        <item name="android:layout_height">95dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">72dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:contentDescription">@string/sigin_picture</item>
+    </style>
+    <style name="CoutomDialogTheme"
+    parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/blue</item>
+        <item name="android:textColorPrimary">@color/White</item>
+        <item name="android:background">@color/lightblock</item>
+
+
+    </style>
+
+
+</resources>
